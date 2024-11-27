@@ -34,6 +34,7 @@ Update the `AZURE_FUNCTIONAPP_PACKAGE_PATH` variable in the YAML file with the p
 env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
   PYTHON_VERSION: '3.11' # set this to the python version to use (supports 3.6, 3.7, 3.8)
+  #text for push test
 ```
 
 Push some test changes to the repository and check the GitHub Actions tab to see the workflow running.
